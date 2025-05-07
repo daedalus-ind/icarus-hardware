@@ -3748,7 +3748,7 @@
 	)
 	(text "Servo Connector"
 		(exclude_from_sim no)
-		(at 149.86 127 0)
+		(at 149.86 126.238 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3760,7 +3760,7 @@
 	)
 	(text "Used to drive 4 servos"
 		(exclude_from_sim no)
-		(at 148.336 155.448 0)
+		(at 149.86 155.448 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4138,16 +4138,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 137.16) (xy 149.86 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12813f88-4768-4e14-a82f-c830082785d4")
-	)
-	(wire
-		(pts
 			(xy 59.69 48.26) (xy 48.26 48.26)
 		)
 		(stroke
@@ -4195,6 +4185,16 @@
 			(type default)
 		)
 		(uuid "1894c71d-7245-496d-9a0b-0fb05e5b0cf9")
+	)
+	(wire
+		(pts
+			(xy 147.32 138.43) (xy 149.86 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18ec13af-7b28-45b7-8224-b29520762276")
 	)
 	(wire
 		(pts
@@ -4428,16 +4428,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 142.24) (xy 149.86 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d019458-f05d-43e8-a553-bdb8c6b8eef9")
-	)
-	(wire
-		(pts
 			(xy 214.63 99.06) (xy 217.17 99.06)
 		)
 		(stroke
@@ -4638,6 +4628,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 143.51) (xy 149.86 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f49b051-1864-453e-b88e-a150a4e6bd1b")
+	)
+	(wire
+		(pts
 			(xy 52.07 86.36) (xy 54.61 86.36)
 		)
 		(stroke
@@ -4825,16 +4825,6 @@
 			(type default)
 		)
 		(uuid "703456af-b766-451b-bd3d-af870d0ce843")
-	)
-	(wire
-		(pts
-			(xy 147.32 134.62) (xy 149.86 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72471ca0-6d8e-4c0c-821a-d41418846fd6")
 	)
 	(wire
 		(pts
@@ -5068,16 +5058,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 144.78) (xy 147.32 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91a77fc8-42fa-4392-8da8-0a11dcab0be6")
-	)
-	(wire
-		(pts
 			(xy 48.26 38.1) (xy 36.83 38.1)
 		)
 		(stroke
@@ -5108,16 +5088,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 139.7) (xy 149.86 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d2579d7-1250-4cea-90f1-9be9e0bf3000")
-	)
-	(wire
-		(pts
 			(xy 132.08 46.99) (xy 132.08 48.26)
 		)
 		(stroke
@@ -5135,6 +5105,26 @@
 			(type default)
 		)
 		(uuid "9f19c624-4569-4610-86df-5e869ef9168b")
+	)
+	(wire
+		(pts
+			(xy 149.86 135.89) (xy 147.32 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fb8bd29-cc0d-45ca-b289-ed4e4ed0217e")
+	)
+	(wire
+		(pts
+			(xy 147.32 146.05) (xy 149.86 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3a5a6b7-435b-457f-bd17-a866aaff4899")
 	)
 	(wire
 		(pts
@@ -5518,16 +5508,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 144.78) (xy 147.32 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3add2a5-56bc-4bc3-9ac9-9e1f10ee8c48")
-	)
-	(wire
-		(pts
 			(xy 217.17 116.84) (xy 200.66 116.84)
 		)
 		(stroke
@@ -5565,6 +5545,26 @@
 			(type default)
 		)
 		(uuid "f5313004-fc85-4751-89f9-2f31decebd42")
+	)
+	(wire
+		(pts
+			(xy 147.32 135.89) (xy 147.32 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f72eb0c2-d501-4d1a-bcbb-40a0bde1585d")
+	)
+	(wire
+		(pts
+			(xy 147.32 140.97) (xy 149.86 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f825afa1-8028-4c59-a965-d07c88b4ea7a")
 	)
 	(wire
 		(pts
@@ -5914,28 +5914,6 @@
 			)
 		)
 	)
-	(global_label "SERVO4_PWM"
-		(shape input)
-		(at 147.32 142.24 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4ac11f02-ee29-453d-b3d0-1f4ae8584372")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.9373 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SWCLK"
 		(shape input)
 		(at 260.35 86.36 0)
@@ -5954,28 +5932,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SERVO1_PWM"
-		(shape input)
-		(at 147.32 134.62 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5d1304fa-0fee-4a8a-a2d9-c1da8f42eb33")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.9373 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -6086,28 +6042,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SERVO3_PWM"
-		(shape input)
-		(at 147.32 139.7 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "793c984a-5092-42e0-8686-36123d6a1ddf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.9373 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -6420,6 +6354,28 @@
 			)
 		)
 	)
+	(global_label "SERVO1_PWM"
+		(shape input)
+		(at 147.32 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bce4c0e0-0a0d-4b95-a527-e2cbfeb76cae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.9373 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPS_UART_RX"
 		(shape input)
 		(at 214.63 99.06 180)
@@ -6499,6 +6455,50 @@
 		(uuid "c94ac4bf-cb91-4f8f-99ef-5a81f6e1f771")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 140.6458 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SERVO2_PWM"
+		(shape input)
+		(at 147.32 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c9e4fd4e-2dae-485a-a80f-b59563fc4cbd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.9373 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SERVO4_PWM"
+		(shape input)
+		(at 147.32 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cd0b1dbc-c2ca-4b22-87c4-8de36b06940b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.9373 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6640,9 +6640,9 @@
 			)
 		)
 	)
-	(global_label "SERVO2_PWM"
+	(global_label "SERVO3_PWM"
 		(shape input)
-		(at 147.32 137.16 180)
+		(at 147.32 143.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6650,9 +6650,9 @@
 			)
 			(justify right)
 		)
-		(uuid "ec0ac5ae-dd69-46d8-9be1-0df8f1c1a92c")
+		(uuid "ec346eab-80df-4e16-98e8-38ad0ae91faa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.9373 137.16 0)
+			(at 131.9373 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6883,7 +6883,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
-		(at 154.94 139.7 0)
+		(at 154.94 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6891,7 +6891,7 @@
 		(dnp no)
 		(uuid "074ca72e-d2ec-4602-b476-0eab05c00569")
 		(property "Reference" "J2"
-			(at 156.972 147.066 0)
+			(at 156.21 133.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6900,7 +6900,7 @@
 			)
 		)
 		(property "Value" "JST PH 2.0"
-			(at 156.21 131.826 0)
+			(at 156.21 148.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6909,7 +6909,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_S5B-PH-K_1x05_P2.00mm_Horizontal"
-			(at 154.94 139.7 0)
+			(at 154.94 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6918,7 +6918,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 139.7 0)
+			(at 154.94 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6927,7 +6927,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 154.94 139.7 0)
+			(at 154.94 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6936,7 +6936,7 @@
 			)
 		)
 		(property "MPN" "C265085"
-			(at 154.94 139.7 0)
+			(at 154.94 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11144,7 +11144,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 147.32 147.32 0)
+		(at 147.32 134.62 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11152,7 +11153,7 @@
 		(dnp no)
 		(uuid "f3e8c209-719b-4097-b083-f7c8e2f2c5c1")
 		(property "Reference" "#PWR031"
-			(at 147.32 153.67 0)
+			(at 147.32 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11161,7 +11162,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 147.32 151.13 0)
+			(at 147.32 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11169,7 +11170,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 147.32 0)
+			(at 147.32 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11178,7 +11179,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 147.32 0)
+			(at 147.32 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11187,7 +11188,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 147.32 0)
+			(at 147.32 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
