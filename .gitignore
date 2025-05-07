@@ -1,0 +1,12 @@
+# KiCad
+fabrication-toolkit-options.json 
+fp-info-cache 
+Icarus Flight Computer-backups/
+Production/backups/
+
+# Windows
+Thumbs.db
+# Mac
+.DS_Store
+# Linux
+*~

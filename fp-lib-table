@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "E220")(type "Altium Designer")(uri "${KIPRJMOD}/Footprints/E220.PcbLib")(options "")(descr ""))
+  (lib (name "Daedalus_Industries")(type "KiCad")(uri "${KIPRJMOD}/Footprints/Daedalus_Industries.pretty")(options "")(descr ""))
+)
