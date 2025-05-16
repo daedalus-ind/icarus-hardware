@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.508
         }
       },
       "diff_pair_dimensions": [
@@ -65,11 +65,23 @@
       ],
       "drc_exclusions": [
         [
-          "lib_footprint_mismatch|128285000|92140000|c778c129-1889-4705-ad09-e0632207eee4|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|132650000|116210000|fb71908b-14f2-4a99-bbef-8d184191a787|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "lib_footprint_mismatch|128500000|115500000|78959b2d-e751-41f4-bf9f-39ca5742ad5e|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|133210000|91948200|f8b86363-03a4-4cc3-b053-eee6f54638bb|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|150000000|120000000|839dfbc3-c329-45ac-8d72-2d220c917fd5|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|150000000|139180000|cdc9b08e-9e1b-4bbe-b803-fbeb7f619096|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|164762500|127070000|de5c61ad-2f2b-44ae-813a-7c27190fa536|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -137,8 +149,8 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.1016,
-        "min_connection": 0.1016,
+        "min_clearance": 0.1,
+        "min_connection": 0.1,
         "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.2,
@@ -150,8 +162,8 @@
         "min_text_height": 1.0,
         "min_text_thickness": 0.153,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.1016,
-        "min_via_annular_width": 0.1,
+        "min_track_width": 0.1,
+        "min_via_annular_width": 0.15,
         "min_via_diameter": 0.45,
         "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
@@ -206,7 +218,7 @@
         0.254,
         0.508,
         0.762,
-        1.778
+        1.27
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -691,6 +703,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "Docs",
     "space_save_all_events": true,
