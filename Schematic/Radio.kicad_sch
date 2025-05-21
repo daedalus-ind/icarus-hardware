@@ -6,10 +6,10 @@
 	(paper "A5")
 	(title_block
 		(title "Icarus Flight Computer")
-		(date "2025-04-30")
+		(date "2025-05-20")
 		(rev "V1.0")
 		(company "Daedalus Industries")
-		(comment 1 "Onboard flight computer for the Icarus rocket")
+		(comment 1 "Onboard flight computer for the rocket \"Icarus\"")
 		(comment 2 "LoRa radio comunication module for telemetry")
 		(comment 3 "Designer: Mattia Gregnanin")
 	)
@@ -153,27 +153,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "RF_Module:E220-900T22S"
+		(symbol "My_RF_Module:E220-xxxTxxS"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U11"
-				(at 10.414 14.224 0)
+			(property "Reference" "U"
+				(at -10.922 13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "E220-900T22S"
-				(at 9.906 -14.478 0)
+			(property "Value" "E220-xxxTxxS"
+				(at 14.732 14.224 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "E220:PE220-400T22S"
+			(property "Footprint" "My_RF_Module:E220-xxxT22S"
 				(at 0 0 0)
 				(effects
 					(font
@@ -200,16 +200,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "C970285"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "E220-900T22S_0_0"
+			(symbol "E220-xxxTxxS_0_0"
 				(rectangle
 					(start -10.16 12.7)
 					(end 10.16 -12.7)
@@ -222,7 +213,7 @@
 					)
 				)
 			)
-			(symbol "E220-900T22S_1_0"
+			(symbol "E220-xxxTxxS_1_0"
 				(pin input line
 					(at -12.7 7.62 0)
 					(length 2.54)
@@ -1183,7 +1174,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a33f302-89d0-41ff-9c9e-acf66e9de850")
-		(property "Reference" "C35"
+		(property "Reference" "C36"
 			(at 87.63 66.0399 0)
 			(effects
 				(font
@@ -1246,7 +1237,7 @@
 		(instances
 			(project "Icarus Flight Computer"
 				(path "/2a10c6de-1617-4216-ace2-cdde3ce2909e/fcfa4dbf-3a2f-4cfd-bcd0-86b511ba8fa7"
-					(reference "C35")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -1261,7 +1252,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "342918f2-9031-4bfd-907d-4839ef4d7089")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR087"
 			(at 72.39 64.77 0)
 			(effects
 				(font
@@ -1311,7 +1302,7 @@
 		(instances
 			(project "Icarus Flight Computer"
 				(path "/2a10c6de-1617-4216-ace2-cdde3ce2909e/fcfa4dbf-3a2f-4cfd-bcd0-86b511ba8fa7"
-					(reference "#PWR085")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -1327,7 +1318,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50b43b99-de44-4df2-80ae-af8aec435aec")
-		(property "Reference" "C34"
+		(property "Reference" "C35"
 			(at 76.2 66.0399 0)
 			(effects
 				(font
@@ -1390,7 +1381,7 @@
 		(instances
 			(project "Icarus Flight Computer"
 				(path "/2a10c6de-1617-4216-ace2-cdde3ce2909e/fcfa4dbf-3a2f-4cfd-bcd0-86b511ba8fa7"
-					(reference "C34")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -1405,7 +1396,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64dd7f55-7f43-4e7e-83f6-77ee63d26717")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR086"
 			(at 123.19 52.07 0)
 			(effects
 				(font
@@ -1455,7 +1446,7 @@
 		(instances
 			(project "Icarus Flight Computer"
 				(path "/2a10c6de-1617-4216-ace2-cdde3ce2909e/fcfa4dbf-3a2f-4cfd-bcd0-86b511ba8fa7"
-					(reference "#PWR084")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -1470,7 +1461,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "739083ba-9707-473f-aaa0-a5b2b49cb4c8")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR088"
 			(at 72.39 80.01 0)
 			(effects
 				(font
@@ -1520,7 +1511,7 @@
 		(instances
 			(project "Icarus Flight Computer"
 				(path "/2a10c6de-1617-4216-ace2-cdde3ce2909e/fcfa4dbf-3a2f-4cfd-bcd0-86b511ba8fa7"
-					(reference "#PWR086")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -1535,7 +1526,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d107509f-75f1-4ac6-8af0-1db7daf45f51")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR089"
 			(at 123.19 90.17 0)
 			(effects
 				(font
@@ -1585,14 +1576,14 @@
 		(instances
 			(project "Icarus Flight Computer"
 				(path "/2a10c6de-1617-4216-ace2-cdde3ce2909e/fcfa4dbf-3a2f-4cfd-bcd0-86b511ba8fa7"
-					(reference "#PWR087")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "RF_Module:E220-900T22S")
+		(lib_id "My_RF_Module:E220-xxxTxxS")
 		(at 123.19 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1616,7 +1607,7 @@
 				)
 			)
 		)
-		(property "Footprint" "E220:PE220-400T22S"
+		(property "Footprint" "My_RF_Module:E220-xxxT22S"
 			(at 123.19 66.04 0)
 			(effects
 				(font

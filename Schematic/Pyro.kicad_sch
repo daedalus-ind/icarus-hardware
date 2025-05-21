@@ -6,10 +6,10 @@
 	(paper "A5")
 	(title_block
 		(title "Icarus Flight Computer")
-		(date "2025-04-30")
+		(date "2025-05-20")
 		(rev "V1.0")
 		(company "Daedalus Industries")
-		(comment 1 "Onboard flight computer for the Icarus rocket")
+		(comment 1 "Onboard flight computer for the rocket \"Icarus\"")
 		(comment 2 "E-match firing for chutes")
 		(comment 3 "Designer: Mattia Gregnanin")
 	)
@@ -679,348 +679,23 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Si7232DN_1"
+		(symbol "My_Transistor:Si7232DN"
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 4.572 2.794 0)
+				(at 3.556 3.302 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Si7232"
-				(at 7.366 -2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Dual"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/68986/si7232dn.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "10A Id, 20V Vds, 164mOhm Ron, PowerPAK-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Si7232DN_1_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Si7232DN_1_1_1"
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Si7232DN_1_2_1"
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Transistor_FET:Si7232DN"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 4.572 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Si7232"
-				(at 7.366 -2.794 0)
+			(property "Value" "Si7232DN"
+				(at 7.62 -4.064 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1057,7 +732,7 @@
 			(symbol "Si7232DN_0_1"
 				(polyline
 					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
+						(xy -1.016 1.905) (xy -1.016 -1.905)
 					)
 					(stroke
 						(width 0.254)
@@ -1069,7 +744,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.254 0) (xy -2.54 0)
+						(xy -1.016 0) (xy -3.81 0)
 					)
 					(stroke
 						(width 0)
@@ -1081,7 +756,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
+						(xy -0.508 2.286) (xy -0.508 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -1093,7 +768,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
+						(xy -0.508 0.508) (xy -0.508 -0.508)
 					)
 					(stroke
 						(width 0.254)
@@ -1105,7 +780,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
+						(xy -0.508 -1.27) (xy -0.508 -2.286)
 					)
 					(stroke
 						(width 0.254)
@@ -1117,7 +792,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+						(xy -0.508 -1.778) (xy 2.032 -1.778) (xy 2.032 1.778) (xy -0.508 1.778)
 					)
 					(stroke
 						(width 0)
@@ -1129,7 +804,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+						(xy -0.254 0) (xy 0.762 0.381) (xy 0.762 -0.381) (xy -0.254 0)
 					)
 					(stroke
 						(width 0)
@@ -1140,7 +815,7 @@
 					)
 				)
 				(circle
-					(center 1.651 0)
+					(center 0.381 0)
 					(radius 2.794)
 					(stroke
 						(width 0.254)
@@ -1152,7 +827,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
+						(xy 1.27 2.54) (xy 1.27 1.778)
 					)
 					(stroke
 						(width 0)
@@ -1163,7 +838,7 @@
 					)
 				)
 				(circle
-					(center 2.54 1.778)
+					(center 1.27 1.778)
 					(radius 0.254)
 					(stroke
 						(width 0)
@@ -1174,7 +849,7 @@
 					)
 				)
 				(circle
-					(center 2.54 -1.778)
+					(center 1.27 -1.778)
 					(radius 0.254)
 					(stroke
 						(width 0)
@@ -1186,7 +861,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+						(xy 1.27 -2.54) (xy 1.27 0) (xy -0.508 0)
 					)
 					(stroke
 						(width 0)
@@ -1198,7 +873,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+						(xy 1.524 0.508) (xy 1.651 0.381) (xy 2.413 0.381) (xy 2.54 0.254)
 					)
 					(stroke
 						(width 0)
@@ -1210,7 +885,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+						(xy 2.032 0.381) (xy 1.651 -0.254) (xy 2.413 -0.254) (xy 2.032 0.381)
 					)
 					(stroke
 						(width 0)
@@ -1223,7 +898,7 @@
 			)
 			(symbol "Si7232DN_1_1"
 				(pin input line
-					(at -3.81 0 0)
+					(at -5.08 0 0)
 					(length 2.54)
 					(name "G"
 						(effects
@@ -1241,7 +916,7 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 5.08 270)
+					(at 1.27 5.08 270)
 					(length 2.54)
 					(name "D"
 						(effects
@@ -1259,7 +934,7 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 1.27 -5.08 90)
 					(length 2.54)
 					(name "S"
 						(effects
@@ -1279,7 +954,7 @@
 			)
 			(symbol "Si7232DN_2_1"
 				(pin input line
-					(at -3.81 0 0)
+					(at -5.08 0 0)
 					(length 2.54)
 					(name "G"
 						(effects
@@ -1297,7 +972,7 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 5.08 270)
+					(at 1.27 5.08 270)
 					(length 2.54)
 					(name "D"
 						(effects
@@ -1315,7 +990,7 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 1.27 -5.08 90)
 					(length 2.54)
 					(name "S"
 						(effects
@@ -1677,7 +1352,7 @@
 	)
 	(rectangle
 		(start 128.27 38.1)
-		(end 181.61 80.01)
+		(end 189.23 80.01)
 		(stroke
 			(width 0.254)
 			(type dash_dot)
@@ -1699,7 +1374,7 @@
 	)
 	(text "Pyro Connector"
 		(exclude_from_sim no)
-		(at 155.956 41.656 0)
+		(at 159.004 41.148 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1710,10 +1385,16 @@
 		(uuid "e94d3397-ab38-432d-87ca-cb08170f17da")
 	)
 	(junction
-		(at 152.4 53.34)
+		(at 135.89 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "26cd191c-b2ee-42f8-8ee0-d2593781c536")
+		(uuid "22595e2a-eb32-40db-96c6-59cb4645bbf0")
+	)
+	(junction
+		(at 147.32 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2259824f-67c2-4663-be99-265584e99690")
 	)
 	(junction
 		(at 55.88 36.83)
@@ -1728,10 +1409,10 @@
 		(uuid "52e8a99f-1c12-4ea1-8667-e6a263814d0b")
 	)
 	(junction
-		(at 152.4 58.42)
+		(at 147.32 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7166e023-ed3a-4ba7-a584-a8ecef95a59b")
+		(uuid "9c94af54-6281-4b99-bc51-acf27663fc12")
 	)
 	(junction
 		(at 76.2 67.31)
@@ -1752,22 +1433,36 @@
 		(uuid "d120f20b-1e35-48ce-8b42-402a4df6ca3d")
 	)
 	(junction
-		(at 152.4 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d2296655-7ecb-46d7-8ad0-6bb0789534e3")
-	)
-	(junction
-		(at 134.62 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d51b25be-db66-423e-8fbf-a570656b2d4e")
-	)
-	(junction
 		(at 95.25 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de3dad29-3ee6-4947-9990-37d9b70f7830")
+	)
+	(junction
+		(at 147.32 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fca757f9-5281-44d6-81f9-c6e3ba77b805")
+	)
+	(wire
+		(pts
+			(xy 135.89 54.61) (xy 135.89 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00d89fd6-6929-40c2-a9f6-f2c493fa4507")
+	)
+	(wire
+		(pts
+			(xy 147.32 63.5) (xy 161.29 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06a2b5f5-88cd-427f-8679-ab3ea4d2c13e")
 	)
 	(wire
 		(pts
@@ -1791,16 +1486,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 68.58) (xy 152.4 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19822718-f381-40ab-9776-57dc55f22bb3")
-	)
-	(wire
-		(pts
 			(xy 95.25 27.94) (xy 95.25 35.56)
 		)
 		(stroke
@@ -1808,26 +1493,6 @@
 			(type default)
 		)
 		(uuid "20852bd9-d2fe-4f4a-ae1e-d3313ee902e8")
-	)
-	(wire
-		(pts
-			(xy 153.67 63.5) (xy 152.4 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29af5723-7a89-48cf-ae9f-56f9742a2652")
-	)
-	(wire
-		(pts
-			(xy 134.62 54.61) (xy 134.62 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3062bcba-dc83-4107-94ce-e8434f70e345")
 	)
 	(wire
 		(pts
@@ -1841,7 +1506,17 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 21.59) (xy 85.09 21.59)
+			(xy 147.32 68.58) (xy 161.29 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38194a7f-be9e-422a-a536-4774447b0cec")
+	)
+	(wire
+		(pts
+			(xy 76.2 21.59) (xy 78.74 21.59)
 		)
 		(stroke
 			(width 0)
@@ -1851,53 +1526,23 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 53.34) (xy 152.4 53.34)
+			(xy 147.32 58.42) (xy 147.32 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4239acf0-67bc-4d8a-a91f-31110aeac841")
+		(uuid "4a6ae664-8130-4d8f-9899-d31302898afe")
 	)
 	(wire
 		(pts
-			(xy 147.32 66.04) (xy 153.67 66.04)
+			(xy 158.75 66.04) (xy 161.29 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4469873e-0b0d-4848-a5e4-aa01483f1313")
-	)
-	(wire
-		(pts
-			(xy 134.62 53.34) (xy 134.62 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4549cda1-b90e-46b0-b48d-7961f0e18229")
-	)
-	(wire
-		(pts
-			(xy 152.4 53.34) (xy 152.4 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46305c28-93f0-475a-8e84-decc06542f25")
-	)
-	(wire
-		(pts
-			(xy 147.32 71.12) (xy 153.67 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "520d843b-6905-4a2a-85b9-650324938f1e")
+		(uuid "5d5c16f1-9df5-4334-81d2-8e5c60950c2f")
 	)
 	(wire
 		(pts
@@ -1911,13 +1556,13 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 63.5) (xy 152.4 58.42)
+			(xy 135.89 66.04) (xy 135.89 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "62c582e5-55bc-41cb-b928-ed8b62c6b1cd")
+		(uuid "6648d319-81db-40b1-af6b-2b6dda2e6336")
 	)
 	(wire
 		(pts
@@ -1948,6 +1593,16 @@
 			(type default)
 		)
 		(uuid "70393dda-5ddf-40b9-94a3-cbb46e047d30")
+	)
+	(wire
+		(pts
+			(xy 147.32 54.61) (xy 135.89 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7196e8e7-70d9-4d76-afeb-f38de507a524")
 	)
 	(wire
 		(pts
@@ -1991,6 +1646,36 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 60.96) (xy 161.29 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cc7d98a-3382-4a1f-a49f-c5c9d4295a41")
+	)
+	(wire
+		(pts
+			(xy 147.32 53.34) (xy 147.32 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fb2fe90-4842-403d-bbdf-5e86fe861e8d")
+	)
+	(wire
+		(pts
+			(xy 147.32 54.61) (xy 147.32 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9737605c-1f06-44d0-9c56-36e1729fb28e")
+	)
+	(wire
+		(pts
 			(xy 76.2 27.94) (xy 82.55 27.94)
 		)
 		(stroke
@@ -2011,13 +1696,33 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 62.23) (xy 134.62 64.77)
+			(xy 158.75 55.88) (xy 161.29 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9c667eb6-297f-439f-8fd0-982270d3fbe9")
+		(uuid "a17529f0-e308-4e69-a000-b371a2c693d0")
+	)
+	(wire
+		(pts
+			(xy 158.75 71.12) (xy 158.75 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa12c128-4186-4a09-899b-827dc497b962")
+	)
+	(wire
+		(pts
+			(xy 147.32 58.42) (xy 161.29 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aac61532-b030-46f1-835b-b778220877d3")
 	)
 	(wire
 		(pts
@@ -2081,6 +1786,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 63.5) (xy 147.32 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb11164c-de61-4460-a9ae-68b999eee8d9")
+	)
+	(wire
+		(pts
 			(xy 95.25 67.31) (xy 99.06 67.31)
 		)
 		(stroke
@@ -2091,7 +1806,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 60.96) (xy 85.09 60.96)
+			(xy 76.2 60.96) (xy 78.74 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2108,16 +1823,6 @@
 			(type default)
 		)
 		(uuid "d823c01b-250f-45c8-b8f2-9ec016ec44ae")
-	)
-	(wire
-		(pts
-			(xy 153.67 60.96) (xy 149.86 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "decb2fe3-d9d0-4159-af94-066acffbb298")
 	)
 	(wire
 		(pts
@@ -2159,36 +1864,6 @@
 		)
 		(uuid "f4e1770b-2126-4ce5-b870-bf2a6cf40af6")
 	)
-	(wire
-		(pts
-			(xy 153.67 58.42) (xy 152.4 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f506e11a-1998-4d9d-ba44-762ae42f43e2")
-	)
-	(wire
-		(pts
-			(xy 153.67 68.58) (xy 152.4 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f784b825-32b7-4c32-a18a-053399fcdce5")
-	)
-	(wire
-		(pts
-			(xy 149.86 60.96) (xy 149.86 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffe345d9-8807-4a1e-9137-e213a7ea5841")
-	)
 	(label "GATE_B"
 		(at 66.04 76.2 0)
 		(effects
@@ -2199,25 +1874,15 @@
 		)
 		(uuid "0b9dd581-6e5d-48bc-898c-630d7c1c33a6")
 	)
-	(label "PYRO_B"
-		(at 147.32 71.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0c4d5191-0cfd-419e-9e8d-31f5c0eb53bf")
-	)
 	(label "PYRO_A"
-		(at 147.32 66.04 180)
+		(at 158.75 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "4bd27a76-e76a-45ab-93d1-726dfd6dc1ec")
+		(uuid "317371cb-6a82-4e25-a059-5b0d899bac48")
 	)
 	(label "GATE_A"
 		(at 66.04 36.83 0)
@@ -2230,7 +1895,7 @@
 		(uuid "90610c27-7035-4d21-985c-eec5b962f269")
 	)
 	(label "PYRO_A"
-		(at 85.09 21.59 0)
+		(at 78.74 21.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2240,7 +1905,17 @@
 		(uuid "bd05f4ce-d2a3-4467-85c4-94a5a649304d")
 	)
 	(label "PYRO_B"
-		(at 85.09 60.96 0)
+		(at 158.75 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d76ddcf2-cd9d-4c74-8404-377a16d22120")
+	)
+	(label "PYRO_B"
+		(at 78.74 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2294,7 +1969,7 @@
 		)
 	)
 	(global_label "PYRO_A_SENSE"
-		(shape input)
+		(shape output)
 		(at 99.06 27.94 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2316,7 +1991,7 @@
 		)
 	)
 	(global_label "PYRO_B_SENSE"
-		(shape input)
+		(shape output)
 		(at 99.06 67.31 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2346,7 +2021,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "000e0197-36a5-4cad-8a42-ef292b18a0df")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR092"
 			(at 95.25 55.88 0)
 			(effects
 				(font
@@ -2396,7 +2071,7 @@
 		(instances
 			(project "Icarus Flight Computer"
 				(path "/2a10c6de-1617-4216-ace2-cdde3ce2909e/550d7cb8-eef1-4026-bc63-2e74eac34178"
-					(reference "#PWR090")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -2411,7 +2086,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01c17183-92cd-4fe9-9e37-295fe60754bd")
-		(property "Reference" "R15"
+		(property "Reference" "R19"
 			(at 86.36 25.4 90)
 			(effects
 				(font
@@ -2472,7 +2147,7 @@
 		(instances
 			(project "Icarus Flight Computer"
 				(path "/2a10c6de-1617-4216-ace2-cdde3ce2909e/550d7cb8-eef1-4026-bc63-2e74eac34178"
-					(reference "R15")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -2488,7 +2163,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bb31d24-cf46-4762-bcea-880c64dac20e")
-		(property "Reference" "R17"
+		(property "Reference" "R21"
 			(at 97.79 38.0999 0)
 			(effects
 				(font
@@ -2551,72 +2226,7 @@
 		(instances
 			(project "Icarus Flight Computer"
 				(path "/2a10c6de-1617-4216-ace2-cdde3ce2909e/550d7cb8-eef1-4026-bc63-2e74eac34178"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 134.62 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "23c50099-dc82-4974-b774-e121ab9aa978")
-		(property "Reference" "#PWR091"
-			(at 134.62 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PYRO_VBAT"
-			(at 134.62 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 134.62 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "01b29ae8-c576-4748-b8e0-8f33aa52dddc")
-		)
-		(instances
-			(project "Icarus Flight Computer"
-				(path "/2a10c6de-1617-4216-ace2-cdde3ce2909e/550d7cb8-eef1-4026-bc63-2e74eac34178"
-					(reference "#PWR091")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -2632,7 +2242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "296dfc03-6545-4693-ae9b-3a7b4bf88b58")
-		(property "Reference" "R16"
+		(property "Reference" "R20"
 			(at 62.23 30.48 90)
 			(effects
 				(font
@@ -2693,7 +2303,73 @@
 		(instances
 			(project "Icarus Flight Computer"
 				(path "/2a10c6de-1617-4216-ace2-cdde3ce2909e/550d7cb8-eef1-4026-bc63-2e74eac34178"
-					(reference "R16")
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 71.12 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2dd41548-cf1f-44a0-9ab4-4c63ff970baa")
+		(property "Reference" "#PWR094"
+			(at 135.89 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60258dbc-8c99-4def-a6f1-be9e60ba9ac1")
+		)
+		(instances
+			(project "Icarus Flight Computer"
+				(path "/2a10c6de-1617-4216-ace2-cdde3ce2909e/550d7cb8-eef1-4026-bc63-2e74eac34178"
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -2708,7 +2384,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c375cf0-58cf-47d8-a661-3ca23ba42b40")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR096"
 			(at 55.88 95.25 0)
 			(effects
 				(font
@@ -2758,7 +2434,7 @@
 		(instances
 			(project "Icarus Flight Computer"
 				(path "/2a10c6de-1617-4216-ace2-cdde3ce2909e/550d7cb8-eef1-4026-bc63-2e74eac34178"
-					(reference "#PWR094")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -2773,7 +2449,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4944405e-0143-4f0f-9e4b-55e45106659e")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR091"
 			(at 76.2 55.88 0)
 			(effects
 				(font
@@ -2823,23 +2499,23 @@
 		(instances
 			(project "Icarus Flight Computer"
 				(path "/2a10c6de-1617-4216-ace2-cdde3ce2909e/550d7cb8-eef1-4026-bc63-2e74eac34178"
-					(reference "#PWR089")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 149.86 73.66 0)
+		(lib_id "power:+BATT")
+		(at 147.32 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "554e8d95-2e5e-47a8-92ad-2eb8a236941b")
+		(uuid "54944be4-fed7-4f7e-916d-c7bd3f22a8a7")
 		(property "Reference" "#PWR093"
-			(at 149.86 80.01 0)
+			(at 147.32 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2847,8 +2523,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 149.86 77.47 0)
+		(property "Value" "PYRO_VBAT"
+			(at 147.32 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2856,7 +2532,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 73.66 0)
+			(at 147.32 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2865,7 +2541,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 73.66 0)
+			(at 147.32 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2873,8 +2549,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 73.66 0)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 147.32 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2883,7 +2559,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "4d5694a5-9103-4e48-a68b-baa516e80054")
+			(uuid "b5667dd6-2cbc-496f-9337-d882ff0eda2c")
 		)
 		(instances
 			(project "Icarus Flight Computer"
@@ -2904,7 +2580,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a738637-7c54-4510-9ee3-363e7c40f01b")
-		(property "Reference" "R22"
+		(property "Reference" "R26"
 			(at 58.42 81.2799 0)
 			(effects
 				(font
@@ -2967,7 +2643,7 @@
 		(instances
 			(project "Icarus Flight Computer"
 				(path "/2a10c6de-1617-4216-ace2-cdde3ce2909e/550d7cb8-eef1-4026-bc63-2e74eac34178"
-					(reference "R22")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -2975,7 +2651,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 152.4 53.34 0)
+		(at 135.89 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2983,7 +2659,7 @@
 		(dnp no)
 		(uuid "7516c8cb-3e85-46a3-bf04-2a4524c5819a")
 		(property "Reference" "#FLG04"
-			(at 152.4 51.435 0)
+			(at 135.89 52.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2992,7 +2668,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 152.4 49.53 0)
+			(at 135.89 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3000,7 +2676,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 53.34 0)
+			(at 135.89 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3009,7 +2685,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 53.34 0)
+			(at 135.89 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3018,7 +2694,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 152.4 53.34 0)
+			(at 135.89 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3030,7 +2706,7 @@
 			(uuid "2bdeea4e-96be-4b75-ad5c-779a942c91d4")
 		)
 		(instances
-			(project ""
+			(project "Icarus Flight Computer"
 				(path "/2a10c6de-1617-4216-ace2-cdde3ce2909e/550d7cb8-eef1-4026-bc63-2e74eac34178"
 					(reference "#FLG04")
 					(unit 1)
@@ -3047,7 +2723,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7cc1f7dd-3764-4301-8b55-ebba7c85b209")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR098"
 			(at 95.25 95.25 0)
 			(effects
 				(font
@@ -3097,7 +2773,7 @@
 		(instances
 			(project "Icarus Flight Computer"
 				(path "/2a10c6de-1617-4216-ace2-cdde3ce2909e/550d7cb8-eef1-4026-bc63-2e74eac34178"
-					(reference "#PWR096")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -3112,7 +2788,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f336ddc-c178-41e5-9dc1-411b1e1eabcc")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR090"
 			(at 55.88 55.88 0)
 			(effects
 				(font
@@ -3162,7 +2838,7 @@
 		(instances
 			(project "Icarus Flight Computer"
 				(path "/2a10c6de-1617-4216-ace2-cdde3ce2909e/550d7cb8-eef1-4026-bc63-2e74eac34178"
-					(reference "#PWR088")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -3170,16 +2846,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x06")
-		(at 158.75 66.04 0)
-		(mirror x)
+		(at 166.37 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "96074571-6db2-4931-8760-96ecb5739008")
-		(property "Reference" "J7"
-			(at 159.766 73.914 0)
+		(property "Reference" "J6"
+			(at 167.386 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3188,7 +2863,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x06"
-			(at 159.258 55.372 0)
+			(at 166.624 71.374 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3197,7 +2872,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-6-2.54_1x06_P2.54mm_Horizontal"
-			(at 158.75 66.04 0)
+			(at 166.37 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3206,7 +2881,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 66.04 0)
+			(at 166.37 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3215,7 +2890,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 158.75 66.04 0)
+			(at 166.37 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3224,7 +2899,7 @@
 			)
 		)
 		(property "MPN" "C3817456"
-			(at 158.75 66.04 0)
+			(at 166.37 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3253,7 +2928,7 @@
 		(instances
 			(project "Icarus Flight Computer"
 				(path "/2a10c6de-1617-4216-ace2-cdde3ce2909e/550d7cb8-eef1-4026-bc63-2e74eac34178"
-					(reference "J7")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -3268,7 +2943,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b7c4a83-c35c-4e4b-a7fb-6d5588da2732")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR097"
 			(at 76.2 95.25 0)
 			(effects
 				(font
@@ -3318,7 +2993,7 @@
 		(instances
 			(project "Icarus Flight Computer"
 				(path "/2a10c6de-1617-4216-ace2-cdde3ce2909e/550d7cb8-eef1-4026-bc63-2e74eac34178"
-					(reference "#PWR095")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -3334,7 +3009,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aaaf7b0e-9bef-4923-a1dd-5a669e0bb1e5")
-		(property "Reference" "R20"
+		(property "Reference" "R24"
 			(at 62.23 69.85 90)
 			(effects
 				(font
@@ -3395,7 +3070,7 @@
 		(instances
 			(project "Icarus Flight Computer"
 				(path "/2a10c6de-1617-4216-ace2-cdde3ce2909e/550d7cb8-eef1-4026-bc63-2e74eac34178"
-					(reference "R20")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -3403,7 +3078,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 134.62 58.42 0)
+		(at 135.89 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3411,8 +3086,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b26c81eb-9e13-45a4-a3ce-101da9cf1017")
-		(property "Reference" "C36"
-			(at 138.43 57.1499 0)
+		(property "Reference" "C37"
+			(at 139.7 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3421,7 +3096,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 138.43 59.6899 0)
+			(at 139.7 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3430,7 +3105,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 135.5852 62.23 0)
+			(at 136.8552 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3439,7 +3114,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 58.42 0)
+			(at 135.89 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3448,7 +3123,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 134.62 58.42 0)
+			(at 135.89 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3457,7 +3132,7 @@
 			)
 		)
 		(property "MPN" "C1525"
-			(at 134.62 58.42 0)
+			(at 135.89 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3474,15 +3149,15 @@
 		(instances
 			(project "Icarus Flight Computer"
 				(path "/2a10c6de-1617-4216-ace2-cdde3ce2909e/550d7cb8-eef1-4026-bc63-2e74eac34178"
-					(reference "C36")
+					(reference "C37")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Si7232DN")
-		(at 73.66 36.83 0)
+		(lib_id "My_Transistor:Si7232DN")
+		(at 74.93 36.83 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3509,7 +3184,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Dual"
-			(at 73.66 36.83 0)
+			(at 74.93 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3518,7 +3193,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/68986/si7232dn.pdf"
-			(at 73.66 36.83 0)
+			(at 74.93 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3527,7 +3202,7 @@
 			)
 		)
 		(property "Description" "10A Id, 20V Vds, 164mOhm Ron, PowerPAK-8"
-			(at 73.66 36.83 0)
+			(at 74.93 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3536,7 +3211,7 @@
 			)
 		)
 		(property "MPN" "C144854"
-			(at 73.66 36.83 0)
+			(at 74.93 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3580,7 +3255,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b4468974-a5bc-44d9-9596-46ce0b357fe0")
-		(property "Reference" "R19"
+		(property "Reference" "R23"
 			(at 86.36 64.77 90)
 			(effects
 				(font
@@ -3641,72 +3316,7 @@
 		(instances
 			(project "Icarus Flight Computer"
 				(path "/2a10c6de-1617-4216-ace2-cdde3ce2909e/550d7cb8-eef1-4026-bc63-2e74eac34178"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 134.62 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bdf7ff8a-b396-4a62-8d4a-f060a7c3b0fa")
-		(property "Reference" "#PWR092"
-			(at 134.62 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 134.62 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9d5f3805-e67c-41ad-8a19-febd3aeef7e3")
-		)
-		(instances
-			(project "Icarus Flight Computer"
-				(path "/2a10c6de-1617-4216-ace2-cdde3ce2909e/550d7cb8-eef1-4026-bc63-2e74eac34178"
-					(reference "#PWR092")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -3722,7 +3332,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb817a9a-0202-4a6c-96c1-0bd16497ffab")
-		(property "Reference" "R21"
+		(property "Reference" "R25"
 			(at 97.79 77.4699 0)
 			(effects
 				(font
@@ -3785,7 +3395,7 @@
 		(instances
 			(project "Icarus Flight Computer"
 				(path "/2a10c6de-1617-4216-ace2-cdde3ce2909e/550d7cb8-eef1-4026-bc63-2e74eac34178"
-					(reference "R21")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -3801,7 +3411,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3e51d1b-0a39-4b74-918f-76ec52bccf9c")
-		(property "Reference" "R18"
+		(property "Reference" "R22"
 			(at 58.42 41.9099 0)
 			(effects
 				(font
@@ -3864,16 +3474,80 @@
 		(instances
 			(project "Icarus Flight Computer"
 				(path "/2a10c6de-1617-4216-ace2-cdde3ce2909e/550d7cb8-eef1-4026-bc63-2e74eac34178"
-					(reference "R18")
+					(reference "R22")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "Si7232DN_1")
-		(lib_id "Transistor_FET:Si7232DN")
-		(at 73.66 76.2 0)
+		(lib_id "power:GND")
+		(at 158.75 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2738f22-f920-4b6d-afde-9dbc716ace3a")
+		(property "Reference" "#PWR095"
+			(at 158.75 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 158.75 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7e10b2c-c2a3-4afb-8f94-1be022d1f52a")
+		)
+		(instances
+			(project "Icarus Flight Computer"
+				(path "/2a10c6de-1617-4216-ace2-cdde3ce2909e/550d7cb8-eef1-4026-bc63-2e74eac34178"
+					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "My_Transistor:Si7232DN")
+		(at 74.93 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3900,7 +3574,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Dual"
-			(at 73.66 76.2 0)
+			(at 74.93 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3909,7 +3583,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/68986/si7232dn.pdf"
-			(at 73.66 76.2 0)
+			(at 74.93 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3918,7 +3592,7 @@
 			)
 		)
 		(property "Description" "10A Id, 20V Vds, 164mOhm Ron, PowerPAK-8"
-			(at 73.66 76.2 0)
+			(at 74.93 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3927,7 +3601,7 @@
 			)
 		)
 		(property "MPN" "C144854"
-			(at 73.66 76.2 0)
+			(at 74.93 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)

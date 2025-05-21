@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.508
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -65,23 +65,15 @@
       ],
       "drc_exclusions": [
         [
-          "lib_footprint_mismatch|132650000|116210000|fb71908b-14f2-4a99-bbef-8d184191a787|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|131550000|116170000|c78e8c7a-bcf0-4248-bc94-934477fbabea|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "lib_footprint_mismatch|133210000|91948200|f8b86363-03a4-4cc3-b053-eee6f54638bb|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|150000000|120000000|839dfbc3-c329-45ac-8d72-2d220c917fd5|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|132652000|91948200|f8b86363-03a4-4cc3-b053-eee6f54638bb|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
           "lib_footprint_mismatch|150000000|139180000|cdc9b08e-9e1b-4bbe-b803-fbeb7f619096|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|164762500|127070000|de5c61ad-2f2b-44ae-813a-7c27190fa536|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -278,7 +270,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|850900|1422400|5d51cf8d-c7c3-4dd7-acd8-63bc3f16e32b|8d5935e3-c91d-464e-99d8-c144d2c5bf2a|/2a10c6de-1617-4216-ace2-cdde3ce2909e/f830119f-d2c6-46ec-9c97-559dba9e05ad|/2a10c6de-1617-4216-ace2-cdde3ce2909e/f830119f-d2c6-46ec-9c97-559dba9e05ad|/2a10c6de-1617-4216-ace2-cdde3ce2909e/aa39976c-aaca-47da-adf2-650a437032b0",
+        ""
+      ],
+      [
+        "pin_to_pin|850900|1447800|15c68987-49c7-46a1-944d-ffae93829566|8d5935e3-c91d-464e-99d8-c144d2c5bf2a|/2a10c6de-1617-4216-ace2-cdde3ce2909e/f830119f-d2c6-46ec-9c97-559dba9e05ad|/2a10c6de-1617-4216-ace2-cdde3ce2909e/f830119f-d2c6-46ec-9c97-559dba9e05ad|/2a10c6de-1617-4216-ace2-cdde3ce2909e/aa39976c-aaca-47da-adf2-650a437032b0",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -530,7 +531,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3493
+        "track_width": 0.2939
       },
       {
         "diff_pair_gap": 0.2032,
@@ -572,7 +573,7 @@
       "plot": "Docs",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Icarus Flight Computer.step",
       "svg": "",
       "vrml": ""
     },
@@ -755,6 +756,10 @@
     [
       "550d7cb8-eef1-4026-bc63-2e74eac34178",
       "Pyro"
+    ],
+    [
+      "029f482d-db01-4742-bdbe-3fed35debcd6",
+      "Servo"
     ]
   ],
   "text_variables": {}

@@ -6,10 +6,10 @@
 	(paper "A5")
 	(title_block
 		(title "Icarus Flight Computer")
-		(date "2025-04-30")
+		(date "2025-05-20")
 		(rev "V1.0")
 		(company "Daedalus Industries")
-		(comment 1 "Onboard flight computer for the Icarus rocket")
+		(comment 1 "Onboard flight computer for the rocket \"Icarus\"")
 		(comment 2 "USB-C connector for power and debug")
 		(comment 3 "Designer: Mattia Gregnanin")
 	)
@@ -1592,7 +1592,7 @@
 	)
 	(rectangle
 		(start 64.77 25.4)
-		(end 152.4 96.52)
+		(end 153.67 96.52)
 		(stroke
 			(width 0.254)
 			(type dash_dot)
@@ -1614,7 +1614,7 @@
 	)
 	(text "USB-C Connector"
 		(exclude_from_sim no)
-		(at 108.458 29.21 0)
+		(at 109.22 29.21 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1864,7 +1864,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 52.07) (xy 142.24 50.8)
+			(xy 143.51 76.2) (xy 143.51 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1874,7 +1874,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 41.91) (xy 142.24 41.91)
+			(xy 120.65 41.91) (xy 143.51 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1884,7 +1884,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 41.91) (xy 142.24 43.18)
+			(xy 143.51 41.91) (xy 143.51 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2201,7 +2201,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6bbf675c-b003-4f7b-a89e-c150b6b2da0b")
-		(property "Reference" "R8"
+		(property "Reference" "R12"
 			(at 77.47 83.8199 0)
 			(effects
 				(font
@@ -2255,7 +2255,7 @@
 		(instances
 			(project ""
 				(path "/2a10c6de-1617-4216-ace2-cdde3ce2909e/9335a33c-17b0-4aec-be7f-6e8ea11dab08"
-					(reference "R8")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -2336,7 +2336,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c980786-32a9-48ec-a0cc-5f25d91c0f77")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 82.55 34.29 0)
 			(effects
 				(font
@@ -2436,7 +2436,7 @@
 		(instances
 			(project ""
 				(path "/2a10c6de-1617-4216-ace2-cdde3ce2909e/9335a33c-17b0-4aec-be7f-6e8ea11dab08"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -2574,7 +2574,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 142.24 52.07 0)
+		(at 143.51 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2582,7 +2582,7 @@
 		(dnp no)
 		(uuid "96f4d154-a1a2-4cc6-9e45-26d234fdafa7")
 		(property "Reference" "#PWR035"
-			(at 142.24 58.42 0)
+			(at 143.51 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2591,7 +2591,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 142.24 55.88 0)
+			(at 143.51 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2599,7 +2599,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 52.07 0)
+			(at 143.51 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2608,7 +2608,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 52.07 0)
+			(at 143.51 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2617,7 +2617,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 52.07 0)
+			(at 143.51 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2647,7 +2647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdc2a51c-390a-4898-a93b-d798137b4a49")
-		(property "Reference" "R6"
+		(property "Reference" "R10"
 			(at 102.87 68.5799 0)
 			(effects
 				(font
@@ -2710,7 +2710,7 @@
 		(instances
 			(project ""
 				(path "/2a10c6de-1617-4216-ace2-cdde3ce2909e/9335a33c-17b0-4aec-be7f-6e8ea11dab08"
-					(reference "R6")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -2819,7 +2819,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c220fd6c-4f6d-4efd-85f0-7ffbc52349a0")
-		(property "Reference" "R7"
+		(property "Reference" "R11"
 			(at 111.76 68.5799 0)
 			(effects
 				(font
@@ -2882,7 +2882,7 @@
 		(instances
 			(project "Icarus Flight Computer"
 				(path "/2a10c6de-1617-4216-ace2-cdde3ce2909e/9335a33c-17b0-4aec-be7f-6e8ea11dab08"
-					(reference "R7")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -2890,7 +2890,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 142.24 46.99 0)
+		(at 143.51 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2898,8 +2898,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fea6b250-cd72-4887-ada4-acfae54945f8")
-		(property "Reference" "C17"
-			(at 146.05 45.7199 0)
+		(property "Reference" "C16"
+			(at 147.32 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2908,7 +2908,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 146.05 48.2599 0)
+			(at 147.32 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2917,7 +2917,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 143.2052 50.8 0)
+			(at 144.4752 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2926,7 +2926,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 46.99 0)
+			(at 143.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2935,7 +2935,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 142.24 46.99 0)
+			(at 143.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2944,7 +2944,7 @@
 			)
 		)
 		(property "MPN" "C1525"
-			(at 142.24 46.99 0)
+			(at 143.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2961,7 +2961,7 @@
 		(instances
 			(project "Icarus Flight Computer"
 				(path "/2a10c6de-1617-4216-ace2-cdde3ce2909e/9335a33c-17b0-4aec-be7f-6e8ea11dab08"
-					(reference "C17")
+					(reference "C16")
 					(unit 1)
 				)
 			)

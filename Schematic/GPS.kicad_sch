@@ -6,10 +6,10 @@
 	(paper "A5")
 	(title_block
 		(title "Icarus Flight Computer")
-		(date "2025-04-30")
+		(date "2025-05-20")
 		(rev "V1.0")
 		(company "Daedalus Industries")
-		(comment 1 "Onboard flight computer for the Icarus rocket")
+		(comment 1 "Onboard flight computer for the rocket \"Icarus\"")
 		(comment 2 "GPS module for altitude and position correction/estimation ")
 		(comment 3 "Designer: Mattia Gregnanin")
 	)
@@ -1583,6 +1583,16 @@
 		)
 		(uuid "1c925a41-a390-4128-99a9-92a40261cb27")
 	)
+	(text "4mA max"
+		(exclude_from_sim no)
+		(at 115.824 89.662 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6f686520-2ff2-462e-94a1-10bc55346dd4")
+	)
 	(text "Active Antenna"
 		(exclude_from_sim no)
 		(at 155.702 55.88 0)
@@ -1624,6 +1634,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5924cf05-24f7-4de0-b576-5096f6d9a72e")
+	)
+	(junction
+		(at 85.09 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3e73f70-2c0d-49e3-a6cd-4c0d2a32a61e")
 	)
 	(no_connect
 		(at 67.31 46.99)
@@ -1705,6 +1721,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 30.48) (xy 48.26 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fb408e4-81de-4d7c-bad9-7cd94c51ab9d")
+	)
+	(wire
+		(pts
 			(xy 64.77 64.77) (xy 67.31 64.77)
 		)
 		(stroke
@@ -1732,6 +1758,16 @@
 			(type default)
 		)
 		(uuid "3ff65fb4-6a17-44e9-a4fe-4dc390ab1f52")
+	)
+	(wire
+		(pts
+			(xy 85.09 39.37) (xy 85.09 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46031ffd-32a3-403e-9136-e49de22138ea")
 	)
 	(wire
 		(pts
@@ -1765,13 +1801,13 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 36.83) (xy 85.09 39.37)
+			(xy 85.09 86.36) (xy 85.09 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "58f91898-56d9-43dd-a93b-33e1278fb2da")
+		(uuid "57d3189b-34d3-4d00-8264-1c84f05abe04")
 	)
 	(wire
 		(pts
@@ -1855,13 +1891,13 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 36.83) (xy 92.71 36.83)
+			(xy 48.26 86.36) (xy 85.09 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b6bed8f5-e959-4d58-b29b-63d019fbacea")
+		(uuid "94e6bb56-dba1-4c48-bc83-19f526925850")
 	)
 	(wire
 		(pts
@@ -1905,6 +1941,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 30.48) (xy 48.26 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d94580d3-efaa-463b-bec6-622c2e8b5485")
+	)
+	(wire
+		(pts
 			(xy 64.77 62.23) (xy 67.31 62.23)
 		)
 		(stroke
@@ -1925,7 +1971,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 85.09) (xy 85.09 87.63)
+			(xy 85.09 85.09) (xy 85.09 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1954,7 +2000,7 @@
 		(uuid "1ef89580-1b38-4df4-8a16-354364b3613c")
 	)
 	(label "VCC_RF"
-		(at 92.71 36.83 0)
+		(at 90.17 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2100,7 +2146,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "18e21cec-1f14-4523-bd40-5d1741d3afe6")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR080"
 			(at 36.83 58.42 0)
 			(effects
 				(font
@@ -2150,72 +2196,7 @@
 		(instances
 			(project "Icarus Flight Computer"
 				(path "/2a10c6de-1617-4216-ace2-cdde3ce2909e/be8ac4a6-073a-4832-a49b-0d978579d155"
-					(reference "#PWR078")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 85.09 36.83 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2242ecbf-1074-491e-8608-683c30b0f914")
-		(property "Reference" "#PWR077"
-			(at 85.09 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 85.09 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.09 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.09 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ad03f9ac-62ab-46c1-9f49-4281f9006e05")
-		)
-		(instances
-			(project "Icarus Flight Computer"
-				(path "/2a10c6de-1617-4216-ace2-cdde3ce2909e/be8ac4a6-073a-4832-a49b-0d978579d155"
-					(reference "#PWR077")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -2231,7 +2212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2362e142-a02a-4b08-9838-fba449398956")
-		(property "Reference" "C32"
+		(property "Reference" "C33"
 			(at 40.64 59.6899 0)
 			(effects
 				(font
@@ -2294,7 +2275,7 @@
 		(instances
 			(project "Icarus Flight Computer"
 				(path "/2a10c6de-1617-4216-ace2-cdde3ce2909e/be8ac4a6-073a-4832-a49b-0d978579d155"
-					(reference "C32")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -2309,7 +2290,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "28a57df5-1030-429f-acbd-dd5554bbf24a")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR082"
 			(at 115.57 88.9 0)
 			(effects
 				(font
@@ -2359,7 +2340,7 @@
 		(instances
 			(project "Icarus Flight Computer"
 				(path "/2a10c6de-1617-4216-ace2-cdde3ce2909e/be8ac4a6-073a-4832-a49b-0d978579d155"
-					(reference "#PWR080")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -2604,7 +2585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "919d569a-b462-4e69-8b50-129df2ea686d")
-		(property "Reference" "C33"
+		(property "Reference" "C34"
 			(at 161.29 78.7399 0)
 			(effects
 				(font
@@ -2667,7 +2648,7 @@
 		(instances
 			(project "Icarus Flight Computer"
 				(path "/2a10c6de-1617-4216-ace2-cdde3ce2909e/be8ac4a6-073a-4832-a49b-0d978579d155"
-					(reference "C33")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -2682,7 +2663,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9cc0bc7b-cae9-4cf4-968e-28158e09c059")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR078"
 			(at 80.01 40.64 0)
 			(effects
 				(font
@@ -2732,7 +2713,7 @@
 		(instances
 			(project "Icarus Flight Computer"
 				(path "/2a10c6de-1617-4216-ace2-cdde3ce2909e/be8ac4a6-073a-4832-a49b-0d978579d155"
-					(reference "#PWR076")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -2747,7 +2728,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bcdc7842-f766-4111-a6c1-a2d4d4030331")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR083"
 			(at 157.48 92.71 0)
 			(effects
 				(font
@@ -2797,7 +2778,7 @@
 		(instances
 			(project "Icarus Flight Computer"
 				(path "/2a10c6de-1617-4216-ace2-cdde3ce2909e/be8ac4a6-073a-4832-a49b-0d978579d155"
-					(reference "#PWR081")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -2812,7 +2793,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0e7284c-5a4d-43ae-8a31-a032d9994e08")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR085"
 			(at 85.09 93.98 0)
 			(effects
 				(font
@@ -2862,7 +2843,7 @@
 		(instances
 			(project "Icarus Flight Computer"
 				(path "/2a10c6de-1617-4216-ace2-cdde3ce2909e/be8ac4a6-073a-4832-a49b-0d978579d155"
-					(reference "#PWR083")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -2878,8 +2859,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c107b928-78ca-4efc-af14-63d2b2c9ff2a")
-		(property "Reference" "J6"
-			(at 170.18 62.5231 0)
+		(property "Reference" "J5"
+			(at 171.45 62.5231 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2887,8 +2868,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "U.FL"
-			(at 170.18 65.0631 0)
+		(property "Value" "SMA"
+			(at 171.45 65.0631 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2896,7 +2877,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134_Vertical"
 			(at 167.64 63.5 0)
 			(effects
 				(font
@@ -2923,7 +2904,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C5137195"
+		(property "MPN" "C3174425"
 			(at 167.64 63.5 0)
 			(effects
 				(font
@@ -2941,7 +2922,7 @@
 		(instances
 			(project ""
 				(path "/2a10c6de-1617-4216-ace2-cdde3ce2909e/be8ac4a6-073a-4832-a49b-0d978579d155"
-					(reference "J6")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -2956,7 +2937,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c94d42bb-773d-49e7-afb2-54f500250122")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR081"
 			(at 36.83 73.66 0)
 			(effects
 				(font
@@ -3006,7 +2987,7 @@
 		(instances
 			(project "Icarus Flight Computer"
 				(path "/2a10c6de-1617-4216-ace2-cdde3ce2909e/be8ac4a6-073a-4832-a49b-0d978579d155"
-					(reference "#PWR079")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -3022,7 +3003,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8b132b0-8679-44f3-a8b5-5c3c2fb6bc01")
-		(property "Reference" "R14"
+		(property "Reference" "R18"
 			(at 118.11 74.9299 0)
 			(effects
 				(font
@@ -3085,7 +3066,7 @@
 		(instances
 			(project "Icarus Flight Computer"
 				(path "/2a10c6de-1617-4216-ace2-cdde3ce2909e/be8ac4a6-073a-4832-a49b-0d978579d155"
-					(reference "R14")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -3101,7 +3082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8d638e7-ebfa-4904-88f5-8c8e13d78c28")
-		(property "Reference" "R13"
+		(property "Reference" "R17"
 			(at 151.13 68.58 90)
 			(effects
 				(font
@@ -3144,7 +3125,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C17903"
+		(property "MPN" "C25349"
 			(at 151.13 74.93 90)
 			(effects
 				(font
@@ -3162,7 +3143,7 @@
 		(instances
 			(project ""
 				(path "/2a10c6de-1617-4216-ace2-cdde3ce2909e/be8ac4a6-073a-4832-a49b-0d978579d155"
-					(reference "R13")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -3177,7 +3158,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd264f2d-87f1-47ee-84bb-56620756b9b3")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR084"
 			(at 167.64 92.71 0)
 			(effects
 				(font
@@ -3227,7 +3208,7 @@
 		(instances
 			(project "Icarus Flight Computer"
 				(path "/2a10c6de-1617-4216-ace2-cdde3ce2909e/be8ac4a6-073a-4832-a49b-0d978579d155"
-					(reference "#PWR082")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
