@@ -573,7 +573,7 @@
       "plot": "Docs",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "Icarus Flight Computer.step",
+      "step": "Docs/Icarus Flight Computer.step",
       "svg": "",
       "vrml": ""
     },
